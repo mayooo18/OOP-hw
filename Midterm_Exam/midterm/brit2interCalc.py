@@ -1,3 +1,4 @@
+#function that shows the options
 def menuoptions():
     print("1. Convert Pounds to Kilograms")
     print("2. Convert Ounce to Grams")
@@ -6,7 +7,7 @@ def menuoptions():
 
 
 
-
+#function that processes the request
 def loopformenu():
     active = True
     while active == True:
@@ -34,6 +35,10 @@ def loopformenu():
         else:
             print("Invalid choice. Please try again.")
      
+
+#function that applies all of the above.
+#  if i were to expand on it i would make them into classes and just leave the main here 
+
 def main():
     loopformenu()
     
